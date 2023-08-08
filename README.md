@@ -1,2 +1,2 @@
-# cpp learning
- Outcomes from c++ learning
+# C++ learning
+ Outcomes from C++ learning
