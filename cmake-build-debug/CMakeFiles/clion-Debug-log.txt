@@ -1,4 +1,4 @@
 C:\Users\YapWH\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\YapWH\Jetbrains -B C:\Users\YapWH\Jetbrains\cmake-build-debug
--- Configuring done (0.1s)
+-- Configuring done (0.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/YapWH/Jetbrains/cmake-build-debug
