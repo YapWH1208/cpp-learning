@@ -16,3 +16,6 @@
 
 ### Libraries
 [Libraries](https://github.com/YapWH1208/cpp-learning/tree/master/Learn/libraries)
+
+## Mini Projects
+- [Contact Managing System](https://github.com/YapWH1208/Contact-Managing-System)
