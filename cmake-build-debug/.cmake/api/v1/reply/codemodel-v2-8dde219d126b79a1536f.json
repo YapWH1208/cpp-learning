@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Jetbrains::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Jetbrains-Debug-6b37b663fde7e95d9811.json",
-					"name" : "Jetbrains",
+					"id" : "Learn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Learn-Debug-0c57e15a75c1b2707855.json",
+					"name" : "Learn",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/YapWH/Jetbrains/cmake-build-debug",
-		"source" : "C:/Users/YapWH/Jetbrains"
+		"build" : "C:/Users/YapWH/Jetbrains/Learn/cmake-build-debug",
+		"source" : "C:/Users/YapWH/Jetbrains/Learn"
 	},
 	"version" : 
 	{

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Jetbrains.exe"
+			"path" : "Learn.exe"
 		},
 		{
-			"path" : "Jetbrains.pdb"
+			"path" : "Learn.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "Jetbrains::@6890427a1f51a3e7e1df",
+	"id" : "Learn::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Jetbrains",
-	"nameOnDisk" : "Jetbrains.exe",
+	"name" : "Learn",
+	"nameOnDisk" : "Learn.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Learn/libraries/swaps.cpp",
+			"path" : "Basic/Lesson/libraries/swaps.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -39,46 +39,46 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/YapWH/Jetbrains/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/YapWH/Jetbrains/Learn/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Jetbrains
+# Object build statements for EXECUTABLE target Learn
 
 
 #############################################
-# Order-only phony target for Jetbrains
+# Order-only phony target for Learn
 
-build cmake_object_order_depends_target_Jetbrains: phony || CMakeFiles/Jetbrains.dir
+build cmake_object_order_depends_target_Learn: phony || CMakeFiles/Learn.dir
 
-build CMakeFiles/Jetbrains.dir/Learn/libraries/swaps.cpp.obj: CXX_COMPILER__Jetbrains_unscanned_Debug C$:/Users/YapWH/Jetbrains/Learn/libraries/swaps.cpp || cmake_object_order_depends_target_Jetbrains
-  DEP_FILE = CMakeFiles\Jetbrains.dir\Learn\libraries\swaps.cpp.obj.d
+build CMakeFiles/Learn.dir/Basic/Lesson/libraries/swaps.cpp.obj: CXX_COMPILER__Learn_unscanned_Debug C$:/Users/YapWH/Jetbrains/Learn/Basic/Lesson/libraries/swaps.cpp || cmake_object_order_depends_target_Learn
+  DEP_FILE = CMakeFiles\Learn.dir\Basic\Lesson\libraries\swaps.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Jetbrains.dir
-  OBJECT_FILE_DIR = CMakeFiles\Jetbrains.dir\Learn\libraries
+  OBJECT_DIR = CMakeFiles\Learn.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learn.dir\Basic\Lesson\libraries
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Jetbrains
+# Link build statements for EXECUTABLE target Learn
 
 
 #############################################
-# Link the executable Jetbrains.exe
+# Link the executable Learn.exe
 
-build Jetbrains.exe: CXX_EXECUTABLE_LINKER__Jetbrains_Debug CMakeFiles/Jetbrains.dir/Learn/libraries/swaps.cpp.obj
+build Learn.exe: CXX_EXECUTABLE_LINKER__Learn_Debug CMakeFiles/Learn.dir/Basic/Lesson/libraries/swaps.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Jetbrains.dir
+  OBJECT_DIR = CMakeFiles\Learn.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Jetbrains.exe
-  TARGET_IMPLIB = libJetbrains.dll.a
-  TARGET_PDB = Jetbrains.exe.dbg
+  TARGET_FILE = Learn.exe
+  TARGET_IMPLIB = libLearn.dll.a
+  TARGET_PDB = Learn.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\YapWH\Jetbrains\cmake-build-debug && C:\Users\YapWH\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\YapWH\Jetbrains\Learn\cmake-build-debug && C:\Users\YapWH\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\YapWH\Jetbrains\cmake-build-debug && C:\Users\YapWH\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\YapWH\Jetbrains -BC:\Users\YapWH\Jetbrains\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\YapWH\Jetbrains\Learn\cmake-build-debug && C:\Users\YapWH\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\YapWH\Jetbrains\Learn -BC:\Users\YapWH\Jetbrains\Learn\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Jetbrains: phony Jetbrains.exe
+build Learn: phony Learn.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +107,9 @@ build Jetbrains: phony Jetbrains.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/YapWH/Jetbrains/cmake-build-debug
+# Folder: C:/Users/YapWH/Jetbrains/Learn/cmake-build-debug
 
-build all: phony Jetbrains.exe
+build all: phony Learn.exe
 
 # =============================================================================
 # Built-in targets
@@ -118,14 +118,14 @@ build all: phony Jetbrains.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/YapWH/Jetbrains/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/YapWH/Jetbrains/Learn/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/YapWH/Jetbrains/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/YapWH/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/YapWH/Jetbrains/Learn/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
