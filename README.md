@@ -13,6 +13,7 @@
 
 ### Intermediate
 1. [Memory](https://github.com/YapWH1208/cpp-learning/tree/master/Intermediate/Lesson/1%20-%20Memory)
+2. [Cite](https://github.com/YapWH1208/cpp-learning/tree/master/Intermediate/Lesson/2%20-%20Cite)
 
 ### Exercise
 [Exercise](https://github.com/YapWH1208/cpp-learning/tree/master/Exercise)
