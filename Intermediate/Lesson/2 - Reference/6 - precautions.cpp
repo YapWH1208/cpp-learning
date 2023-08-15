@@ -9,8 +9,8 @@ int main(){
     cout << "B = " << b << endl;
 
     //int &c; //Citing must initialize with a value/variable
-    int &c = a; //Once Cite, it cannot be changed
-    c = b; // This will only give values not cite
+    int &c = a; //Once referenced, it cannot be changed
+    c = b; // This will only give values not reference
 
     cout << "\nA = " << a << endl;
     cout << "B = " << b << endl;

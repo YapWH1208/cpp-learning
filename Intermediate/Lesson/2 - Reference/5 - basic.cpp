@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int a = 10;
-    int &b = a;// Cite a to b
+    int &b = a;// Reference a to b
 
     cout << "A = " << a << endl;
     cout << "B = " << b << endl;

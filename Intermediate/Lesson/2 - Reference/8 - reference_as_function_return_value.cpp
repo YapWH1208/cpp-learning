@@ -14,12 +14,12 @@ int &test2(){
 }
 
 int main(){
-    // Cannot return local variable's cite
+    // Cannot return local variable's reference
     int &ref = test1();
     cout << "ref = " << ref << endl;
     cout << "ref = " << ref << endl;
 
-    // If function is on the right side, the return value must be the cite
+    // If function is on the right side, the return value must be the reference
     int &ref2 = test2();
     cout << "ref2 = " << ref2 << endl;
     cout << "ref2 = " << ref2 << endl;
