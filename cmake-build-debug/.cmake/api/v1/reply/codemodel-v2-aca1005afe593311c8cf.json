@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/YapWH/Jetbrains/Learn/cmake-build-debug",
-		"source" : "C:/Users/YapWH/Jetbrains/Learn"
+		"build" : "E:/Jetbrains/Learn/cmake-build-debug",
+		"source" : "E:/Jetbrains/Learn"
 	},
 	"version" : 
 	{

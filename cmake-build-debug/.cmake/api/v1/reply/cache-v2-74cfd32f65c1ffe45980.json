@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/YapWH/Jetbrains/Learn/cmake-build-debug"
+			"value" : "e:/Jetbrains/Learn/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/YapWH/Jetbrains/Learn/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/Jetbrains/Learn/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/YapWH/Jetbrains/Learn"
+			"value" : "E:/Jetbrains/Learn"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/YapWH/Jetbrains/Learn/cmake-build-debug"
+			"value" : "E:/Jetbrains/Learn/cmake-build-debug"
 		},
 		{
 			"name" : "Jetbrains_IS_TOP_LEVEL",
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/YapWH/Jetbrains/Learn"
+			"value" : "E:/Jetbrains/Learn"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
