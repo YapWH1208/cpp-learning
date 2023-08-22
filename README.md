@@ -18,7 +18,7 @@
 4. [Class and Object](https://github.com/YapWH1208/cpp-learning/tree/master/Intermediate/Lesson/4%20-%20Class%20and%20Object)
 
 ### Exercise
-[Basic](https://github.com/YapWH1208/cpp-learning/tree/master/Exercise)
+[Basic](https://github.com/YapWH1208/cpp-learning/tree/master/Exercise)<br>
 [Intermediate](https://github.com/YapWH1208/cpp-learning/tree/master/Intermediate/Exercise)
 
 ### Libraries
